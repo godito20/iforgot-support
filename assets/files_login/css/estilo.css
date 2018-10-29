@@ -1,0 +1,236 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: 'Helvetica Neue LT Std 45 Light';
+    font-style: normal;
+    font-weight: normal;
+    font-color: black;
+    src: local('Helvetica Neue LT Std 45 Light'), url('HelveticaNeueLTStd%20Lt.woff') format('woff');
+}
+body{
+
+                background: url('./background.png') no-repeat fixed center center;
+                background-size: cover;
+                font-family: Montserrat;
+                width:100%;
+  margin:0 auto;
+}
+
+
+.imgs{
+
+  position: absolute;
+  margin-top: -20px;
+}
+
+.body{
+ 
+margin-top: 11%;
+
+}
+
+nav#topo{
+  width: 100%;
+height: 44px;
+background: #FFF;
+position: fixed;
+top: 0;
+left: 0;
+z-index: 99999;
+border-right: none;
+    border-left: none;
+    border-top: none;
+    border-bottom: 1px solid #50C163;
+}
+
+li#topo{
+list-style: none;
+float: left;
+margin-top: -10px;
+margin-left: -40px;
+}
+
+li#topo2{
+list-style: none;
+float: right;
+margin-top: -10px;
+left: 20px;
+}
+li#topo3{
+list-style: none;
+float: right;
+margin-top: -10px;
+left: 20px;
+}
+@media screen and (max-width: 670px) {
+	
+	li#topo2{
+        display: none;
+    }
+  
+}
+
+
+.container-two {
+    text-align: center;
+    margin: 0 auto !important;
+    width: 340px;
+}
+.container-two img {
+    padding-top: 18px;
+}
+.container-two h1 {
+    margin-top: 20px;
+    font-family: 'Helvetica Neue LT Std 45 Light', serif;
+    font-size: 34px;
+    color: #2E2E2F;
+    font-weight: lighter;
+}
+
+.formulario {
+    padding-top: -10px;
+    overflow: hidden;
+    margin: 0 auto;
+    width: 300px;
+    height: 94px;
+    border-radius: 15px;
+    border: 1px solid #B9B9B9;
+    background: rgba(255, 255, 255, 0.75);;
+}
+
+.email {
+  border-bottom: 1px solid #B9B9B9;
+  outline: none;
+  width: 300px;
+  border-right: none;
+  border-left: none;
+  border-top: none;
+  height: 46px;
+  background: none;
+  font-size: 16px;
+  color: black;
+  padding: 0 18px 0 110px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.senha {
+  outline: #89A1AF;
+  width: 300px;
+  height: 46px;
+  background: transparent;
+  font-size: 16px;
+  color: black;
+  padding: 0 35px 0 110px;
+  font-family: 'Raleway', sans-serif;
+  border: none;
+}
+
+.label-email {
+  position: absolute;
+  left: 12px;
+  top: 12px;
+  z-index: 15;
+  font-family: 'Helvetica Neue LT Std 45 Light', serif;
+    font-size: 18px;
+    color: #2E2E2F;
+    font-weight: lighter;
+  
+}
+
+.label-senha {
+  position: absolute;
+  left: 12px;
+  top: 12px;
+  z-index: 15;
+  font-family: 'Helvetica Neue LT Std 45 Light', serif;
+    font-size: 18px;
+    color: #2E2E2F;
+    font-weight: lighter;
+}
+
+.input-email {
+  position: relative;
+ 
+}
+.input-senha {
+  position: relative;
+
+}
+
+
+
+.input-button {
+    margin-top: 22px;
+    font-family: 'Helvetica Neue LT Std 45 Light', serif;
+    border-bottom:none;
+    color:#999;
+    background: none;
+    border-right: none;
+    border-left: none;
+    border-top: none;
+    outline: none;
+    font-size: 27px;
+    font-weight: lighter;
+	
+}
+
+.subloginone {
+    margin-top: 35px;
+    font-family: 'Helvetica Neue LT Std 45 Light';
+    font-size: 15px;
+    color: #18AA30;
+    font: normal;
+    
+}
+a {
+    text-decoration: none;
+}
+.sublogintwo {
+    margin-top: 15px;
+    font-family: 'Helvetica Neue LT Std 45 Light';
+    font-size: 15px;
+    color: #18AA30;
+    font: normal;
+
+}
+.linha{
+    margin-top: 22px;
+    font-family: 'Helvetica Neue LT Std 45 Light';
+    font-size: 15px;
+    color: #8E8E8E;
+    font: normal;
+
+}
+.linhaa{
+    margin-top: -2px;
+    font-family: 'Helvetica Neue LT Std 45 Light';
+    font-size: 15px;
+    color: #8E8E8E;
+    font: normal;
+
+}
+.info-sub{
+    margin-top: -2px;
+    font-family: 'Helvetica Neue LT Std 45 Light';
+    font-size: 15px;
+    color: #8E8E8E;
+    font: normal;
+
+}
+
+::-webkit-input-placeholder {
+   color: #828282;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: #828282;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #828282;  
+}
+
+:-ms-input-placeholder {  
+   color: #828282;  
+}
+
